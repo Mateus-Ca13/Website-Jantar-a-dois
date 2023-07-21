@@ -1,0 +1,183 @@
+{
+    "videos": [ 
+        {
+            "foto": "./assets/receitas-img/lasanha-img.png",
+            "titulo": "Lasanha a Bolonhesa",
+            "descricao": "Suculenta e ótima opção para almoço de domingo com a família.",
+            "categoria": "Prato principal, Família, Massas",
+            "tempoPreparo": "50min", 
+            "pessoasServidas": "4-5",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4, ingrediente 5",
+            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5 , passo 6",
+            "favoritos": "147"
+        },
+
+        {
+            "foto": "./assets/receitas-img/sorvete-img.png",
+            "titulo": "Sorvete Caseiro",
+            "descricao": "Sorvete de creme com poucos ingredientes.",
+            "categoria": "Sobremesa, Caseiro",
+            "tempoPreparo": "2h",
+            "pessoasServidas": "3-4",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3",
+            "modoPreparo": "passo 1, passo 2, passo 3",
+            "favoritos": "98"
+        },
+
+        {
+            "foto": "./assets/receitas-img/salada-img.png",
+            "titulo": "Salada Tropical",
+            "descricao": "Deliciosa para acompanhar qualquer refeição",
+            "categoria": "Saudável, Salada",
+            "tempoPreparo": "15min",
+            "pessoasServidas": "2-3",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4",
+            "modoPreparo": "passo 1, passo 2, passo 3",
+            "favoritos": "133"
+        },
+
+        {
+            "foto": "./assets/receitas-img/batata-img.png",
+            "titulo": "Batata Gratinada",
+            "descricao": "Pode desde acompanhar carnes até ser o prato principal.",
+            "categoria": "Batata, Acompanhamento",
+            "tempoPreparo": "40min",
+            "pessoasServidas": "3-4",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3",
+            "modoPreparo": "passo 1, passo 2, passo 3, passo 4",
+            "favoritos": "101"
+        },
+
+        {
+            "foto": "./assets/receitas-img/guacamole-img.png",
+            "titulo": "Guacamole Caseiro",
+            "descricao": "Molho único ótimo para acompanhar petiscos.",
+            "categoria": "Molho, Acompanhamento",
+            "tempoPreparo": "25min",
+            "pessoasServidas": "4-5",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4, ingrediente 5",
+            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5",
+            "favoritos": "34"
+        },
+
+        {
+            "foto": "./assets/receitas-img/sopa-img.png",
+            "titulo": "Sopa de Creme de Cebola",
+            "descricao": "Ótima opção para noites frias",
+            "categoria": "Sopa, Frio",
+            "tempoPreparo": "1h",
+            "pessoasServidas": "3-4",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4, ingrediente 5, ingrediente 6",
+            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5 , passo 6, passo 7, passo 8 ",
+            "favoritos": "81"
+        },
+
+        {
+            "foto": "./assets/receitas-img/torta-img.png",
+            "titulo":"Torta de Maçã",
+            "descricao": "Uma deliciosa torta de maçã com uma crosta crocante e recheio suculento.",
+            "categoria": "Sobremesa, Torta",
+            "tempoPreparo": "1h",
+            "pessoasServidas": "4-5",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4, ingrediente 5",
+            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5",
+            "favoritos": "95"
+        },
+
+        {
+            "foto": "./assets/receitas-img/frango-img.png",
+            "titulo": "Frango Assado",
+            "descricao": "Um suculento frango assado temperado com ervas e especiarias, perfeito para uma refeição em família.",
+            "categoria": "Prato principal, Frango",
+            "tempoPreparo": "1h30min",
+            "pessoasServidas": "2-3",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3",
+            "modoPreparo": "passo 1, passo 2, passo 3",
+            "favoritos": "129"
+        },
+
+        {
+            "foto": "./assets/receitas-img/smoothie-img.png",
+            "titulo": "Smoothie de Frutas Tropicais",
+            "descricao": "Um refrescante smoothie feito com uma combinação de frutas tropicais.",
+            "categoria": "Bebida, Frutas",
+            "tempoPreparo": "15min",
+            "pessoasServidas": "1-2",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4",
+            "modoPreparo": "passo 1, passo 2, passo 3",
+            "favoritos": "40"
+        },
+
+        {
+            "foto": "./assets/receitas-img/paoqueijo-img.png",
+            "titulo": "Pão de Queijo",
+            "descricao": "Deliciosos pãezinhos de queijo com uma casquinha crocante por fora e um interior macio e queijo derretido.",
+            "categoria": "Aperitivo, Tarde",
+            "tempoPreparo": "40min",
+            "pessoasServidas": "4-5",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3",
+            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5 , passo 6",
+            "favoritos": "63"
+        },
+
+        {
+            "foto": "./assets/receitas-img/risoto-img.png",
+            "titulo": "Risoto de Cogumelos",
+            "descricao": "Um risoto cremoso preparado com cogumelos frescos, caldo de legumes e queijo parmesão.",
+            "categoria": "Prato principal, Cogumelos",
+            "tempoPreparo": "45min",
+            "pessoasServidas": "3-4",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4, ingrediente 5, ingrediente 6",
+            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5 , passo 6, passo 7",
+            "favoritos": "26"
+        },
+
+        {
+            "foto": "./assets/receitas-img/bolo-img.png",
+            "titulo": "Bolo de Chocolate",
+            "descricao": "Um bolo de chocolate úmido e macio, perfeito para os amantes de chocolate.",
+            "categoria": "Sobremesa, Chocolate",
+            "tempoPreparo": "1h15min",
+            "pessoasServidas": "5-6",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4, ingrediente 5, ingrediente 6, ingrediente 7",
+            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5 , passo 6",
+            "favoritos": "87"
+        },
+
+        {
+            "foto": "./assets/receitas-img/mousse-img.png",
+            "titulo": "Mousse de Limão",
+            "descricao": "Uma sobremesa leve e refrescante feita com suco de limão, creme de leite e açúcar.",
+            "categoria": "Sobremesa, Mousse",
+            "tempoPreparo": "30min",
+            "pessoasServidas": "4-5",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4",
+            "modoPreparo": "passo 1, passo 2, passo 3",
+            "favoritos": "77"
+        },
+
+        {
+            "foto": "./assets/receitas-img/bife-img.png",
+            "titulo": "Bife à Parmegiana",
+            "descricao": "Um suculento bife de carne bovina empanado, coberto com molho de tomate e queijo derretido.",
+            "categoria": "Prato principal",
+            "tempoPreparo": "45min",
+            "pessoasServidas": "3-4",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4",
+            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5 , passo 6, passo 7",
+            "favoritos": "95"
+        },
+
+        {
+            "foto": "./assets/receitas-img/sanduiche-img.png",
+            "titulo": "Sanduíche de Frango",
+            "descricao": "Um delicioso sanduíche de frango grelhado com alface, tomate e maionese.",
+            "categoria": "Lanche, Fácil",
+            "tempoPreparo": "15min",
+            "pessoasServidas": "1-2",
+            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4",
+            "modoPreparo": "passo 1, passo 2, passo 3",
+            "favoritos": "83"
+        }
+    ]
+}

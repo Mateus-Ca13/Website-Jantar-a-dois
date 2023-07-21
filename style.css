@@ -1,0 +1,101 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap');
+
+:root {
+    --creme-escuro: #92521e54;
+    --creme: #E7D7CA;
+    --creme-claro: #fff7f0;
+    --marrom-forte: #A6580E;
+    --marrom-medio: #C69062;
+    --marrom-fraco: #D0A885;
+    --marrom-escuro: #623408;
+    --marrom-escuro2: #61200ac0;
+    --bordo: #af2319;
+}
+
+
+/* Estilos generalizados ------------------------------*/
+
+body {
+    font-size: 14px;
+    background-color: var(--creme);
+    font-family: 'Belanosima', sans-serif;;
+}
+
+.logo {
+    width: 120px;
+}
+
+.nav-btn {
+    color: #fff;
+    background-color: var(--marrom-medio);
+}
+
+.nav-btn:hover, .nav-btn:focus {
+    background-color: #D0A885;
+    color: #fff;
+    transition: 0.3s all;
+}
+
+nav {
+    background-color: var(--marrom-forte);
+    box-shadow: 0px 0px 10px 3px var(--marrom-escuro);
+    z-index: 10;
+}
+
+.form-control, .form-control::placeholder, .form-control:focus { 
+    background-color: var(--marrom-fraco);
+    border: none;
+    color: #fff;
+    resize: none;
+}
+
+.fundo-bege {
+    background-color: var(--creme-escuro);
+}
+
+.fundo-creme {
+    background-color: var(--creme-claro);
+}
+
+.tamanho-card {
+    height: 50px;
+      
+}
+
+.img-card {
+    height: 100%;
+}
+
+.btn-receita {
+    background-color: var(--marrom-forte);
+    color: white;
+}
+
+.btn-receita:hover {
+    background-color: var(--marrom-medio);
+    color: white;
+  
+}
+
+/* Estilos Homepage -----------------------------------*/
+
+.banner-img {
+    height: 25%;
+}
+
+.text-carousel {
+    background-color: var(--marrom-escuro2);
+}
+
+.btn-like, .btn-like:hover, .btn-like:active {
+    background-color: var(--bordo);
+    color: white;
+}
+
+/* Estilos Publicar receita ----------------------------*/
+
+.foto-enviada {
+    height: 150px;
+    
+}
