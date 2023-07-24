@@ -16,6 +16,6 @@ Para instalar o json-server, digite em seguida:<br>
 <code>npm install json-server</code><br>
 
 Por fim, digite:<br>
-<code>json-server --watch receitas.json</code> <br>
+<code>npx json-server --watch receitas.json</code> <br>
 
 Após essas etapas, caso use a extensão live-server, você pode rodar o projeto clicando em "Go live" para enfim vê-lo

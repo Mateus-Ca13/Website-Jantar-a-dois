@@ -1,0 +1,14 @@
+{
+  "name": "website-jantar-a-dois",
+  "version": "1.0.0",
+  "description": "*Website dinâmico de receitas (Em desenvolvimento)* \r ---\r O Jantar a dois consiste num site de receitas para casais que é construído a partir dados consumidos por meio do uso de um mock de API com json-server. Para a manipulação desses dados, são usados métodos como get e post, os quais trazem a possibilidade de uma maior interação do usuário como o resto do ecosistema.\r São também usados métodos de array para um retorno controlado dessas listas de receitas que podem ser exploradas por todo o site.\r Por fim, o uso do LocalStorage também está presente para a possibilidade de salvamento de alguns dados, que ficam guardados como \"favoritados\" para uma futura consulta.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}

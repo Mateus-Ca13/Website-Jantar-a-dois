@@ -43,7 +43,7 @@ nav {
     z-index: 10;
 }
 
-.form-control, .form-control::placeholder, .form-control:focus { 
+.form-control, .form-control::placeholder, .form-control:focus, .form-select { 
     background-color: var(--marrom-fraco);
     border: none;
     color: #fff;
@@ -99,3 +99,4 @@ nav {
     height: 150px;
     
 }
+
