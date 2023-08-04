@@ -23,7 +23,7 @@ body {
 }
 
 .logo {
-    width: 120px;
+    width: 70px;
 }
 
 .nav-btn {
@@ -43,7 +43,7 @@ nav {
     z-index: 10;
 }
 
-.form-control, .form-control::placeholder, .form-control:focus, .form-select { 
+.form-control, .form-control::placeholder, .form-control:focus, .form-select, .form-control:disabled { 
     background-color: var(--marrom-fraco);
     border: none;
     color: #fff;
@@ -65,6 +65,7 @@ nav {
 
 .img-card {
     height: 100%;
+    aspect-ratio: 1/1;
 }
 
 .btn-receita {
@@ -77,6 +78,11 @@ nav {
     color: white;
   
 }
+
+.fonte-marrom {
+    color:  var(--marrom-escuro);
+}
+
 
 /* Estilos Homepage -----------------------------------*/
 
@@ -99,4 +105,41 @@ nav {
     height: 150px;
     
 }
+
+.grid-categorias {
+    display: grid;
+    gap: 0 0.5em;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-aviso {
+    width: 20px;
+}
+
+.foto-receita-enviada {
+    width: 25%;
+    max-width: 400px;
+    min-width: 250px;
+}
+
+/* Estilos Visualizar receita ----------------------------*/
+
+.foto-exibida {
+    width: 100%;
+    max-height: 360px;
+    max-width: 360px;
+    border-left: 3px solid var(--creme);
+    border-right: 3px solid var(--creme);
+}
+
+.fundo-foto {
+    background-image: url(./assets/fundo-logo.png);
+}
+
+.item-lista-receita {
+    border-bottom: 2px solid var(--creme-escuro);
+    padding: 15px 0 0 5px;
+}
+
+
 

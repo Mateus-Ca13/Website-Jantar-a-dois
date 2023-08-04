@@ -9,7 +9,7 @@ async function listarCategorias() {
         /* Aqui todas as categorias que um objeto(receita) têm são organizadas/separadas 
         por "," e são adicionadas temporariamente no array "categorias" */
 
-        listaDeReceitas.forEach(receita => {categorias.push(receita.categoria.split(", "))});
+        listaDeReceitas.forEach(receita => {categorias.push(receita.categoria.split("/#/ "))});
         
         
         /* Cada elemento dos arrays-filhos que estão no array "categorias" é adicionado em "categoriasExistentes" */

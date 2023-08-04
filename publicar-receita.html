@@ -14,9 +14,10 @@
 <body>
     <!--Cabeçalho-->
     <header>
-        <nav class="navbar navbar-expand-lg py-3 position-sticky">
-            <div class="container-fluid">
-                <a class="navbar-brand text-light" href="#"></a>
+
+        <nav class="navbar navbar-expand-lg py-3 position-sticky ">
+            <div class="container-fluid d-flex align-items-center">
+                <img src="./assets/logojantar.png" alt="Logo do Jantar a dois" class="logo mb-1 mx-2">
                 <div class="input-group w-50 d-none d-md-flex">
                     <button class="btn nav-btn dropdown-toggle px-3" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">Categorias</button>
@@ -30,7 +31,7 @@
                         <li><a class="dropdown-item" href="#">Ver categorias...</a></li>
                     </ul>
                     <!--Input de Pesquisa-->
-                    <input type="text" class="form-control" id="" aria-label="Text input with dropdown button"
+                    <input type="text" class="form-control" aria-label="Text input with dropdown button"
                         placeholder="Busque por uma receita...">
 
                     <button class="btn nav-btn text-light px-3" type="button" id="button-addon2">Buscar</button>
@@ -78,7 +79,7 @@
 
             <!-- Aba Foto-->
             <section class="card fundo-creme border-0 p-0 col-12 col-md-2">
-                <img src="./assets/selecionar-imagem.png" class="card-img-top foto-enviada img-fluid"
+                <img src="./assets/fundo-logo.png" class="card-img-top foto-enviada img-fluid"
                     alt="Foto enviada pelo usuário" data-foto-enviada>
                 <div class="card-body">
                     <form class="d-flex flex-column  justify-content-center gap-2">
@@ -99,20 +100,33 @@
 
             <!--Aba nome-->
             <section class="card fundo-creme border-0 col-12 col-md-9">
-                <div class="card-body">
+                <div class="card-body p-0 p-md-2 pt-2">
                     <form>
-                        <div class="mb-3 container-fluid">
+                        <div class="mb-3 container-fluid p-0">
                             <label for="TituloReceita" class="form-label fs-5">Nome da receita</label>
-                            <input type="text" class="form-control" id="TituloReceita" required>
+                            <input type="text" class="form-control" id="TituloReceita" data-nome-receita>
                         </div>
+
                         <div class="d-flex flex-column flex-sm-row">
-                            <div class="mb-3 mt-2 container-fluid">
+                            <div class="mb-3 mt-2 container-fluid p-1 pe-2">
                                 <label for="DescricaoReceita" class="form-label fs-5">Descrição da receita</label>
-                                <textarea class="form-control" id="DescricaoReceita" rows="3" required></textarea>
+                                <textarea class="form-control" id="DescricaoReceita" rows="5" data-descricao></textarea>
                             </div>
-                            <div class="mb-3 mt-2 container-fluid">
-                                <label for="DescricaoReceita" class="form-label fs-5">Categorias</label>
-                                <textarea class="form-control" id="DescricaoReceita" rows="3" required></textarea>
+
+                            <div class="mb-3 mt-2 container-fluid p-1 ps-2">
+                                <label for="CategoriasReceita" class="form-label fs-5 d-block">Categorias</label>
+                                <div class="input-group mb-2">
+                                    <input type="text" id="CategoriasReceita" class="form-control rounded-2"
+                                        placeholder="Adicione as categorias aqui." data-input-item>
+                                    <span class="input-group-text rounded-2 fundo-bege ms-1 px-3 text-center"
+                                        data-botao-adicionar>
+                                        <p class="d-md-block d-none m-0">Adicionar</p><i
+                                            class="fw-bold bi bi-plus-square ms-0 ms-md-2"></i>
+                                    </span>
+                                </div>
+                                <ul class="list-group grid-categorias" data-lista data-lista-categorias>
+
+                                </ul>
                             </div>
                         </div>
                     </form>
@@ -122,30 +136,35 @@
 
             <!--Aba 1-->
             <section class="card fundo-creme border-0 col-12 col-md-5">
-                <div class="card-body">
+                <div class="card-body p-0 p-md-2 pt-2">
                     <form>
                         <!--Aba de ingredientes-->
                         <div class="mb-3">
                             <label for="TituloReceita" class="form-label fs-5">Ingredientes da receita</label>
                             <div class="input-group mb-2">
-                                <input type="text" class="form-control rounded-2" placeholder="Adicione os ingredientes aqui." data-input-item>
-                                <span class="input-group-text rounded-2 fundo-bege ms-1 px-3 text-center" data-botao-adicionar>
-                                    <p class="d-md-block d-none m-0">Adicionar</p><i class="fw-bold bi bi-plus-square ms-0 ms-md-2"></i></span>
+                                <input type="text" class="form-control rounded-2"
+                                    placeholder="Adicione os ingredientes aqui." data-input-item>
+                                <span class="input-group-text rounded-2 fundo-bege ms-1 px-3 text-center"
+                                    data-botao-adicionar>
+                                    <p class="d-md-block d-none m-0">Adicionar</p><i
+                                        class="fw-bold bi bi-plus-square ms-0 ms-md-2"></i>
+                                </span>
                             </div>
                             <ul class="list-group" data-lista data-lista-ingredientes>
-                               
+
                             </ul>
                         </div>
                         <!--Input Pessoas Servidas-->
                         <div class="mb-3 mt-2">
                             <label for="pessoasServidas" class="form-label fs-5">Pessoas servidas</label>
-                            <select id="pessoasServidas" class="form-select mb-3" required>
-                                <option selected>Quantidade de pessoas servidas</option>
-                                <option value="1">1-2</option>
-                                <option value="2">2-3</option>
-                                <option value="3">3-4</option>
-                                <option value="4">4-5</option>
-                                <option value="5">5-6</option>
+                            <select id="pessoasServidas" class="form-select mb-3" aria-placeholder=""
+                                data-pessoas-servidas>
+                                <option value="0" selected disabled>Quantidade de pessoas servidas</option>
+                                <option value="1-2">1-2</option>
+                                <option value="2-3">2-3</option>
+                                <option value="3-4">3-4</option>
+                                <option value="4-5">4-5</option>
+                                <option value="5-6">5-6</option>
                             </select>
                         </div>
 
@@ -156,39 +175,59 @@
 
             <!--Aba 2-->
             <section class="card fundo-creme border-0 col-12 col-md-6">
-                <div class="card-body">
+                <div class="card-body p-0 p-md-2 pt-2">
                     <form>
                         <!--Aba de Etapas da receita-->
                         <div class="mb-3">
                             <label for="etapasDaReceita" class="form-label fs-5">Etapas da receita</label>
                             <div class="input-group mb-2">
-                                <input type="text" class="form-control rounded-2" placeholder="Adicone as etapas aqui." data-input-item>
-                                <span class="input-group-text rounded-2 fundo-bege ms-1 px-3 text-center"  data-botao-adicionar>
-                                    <p class="d-md-block d-none m-0">Adicionar</p><i class="fw-bold bi bi-plus-square ms-0 ms-md-2"></i></span>
+                                <input type="text" class="form-control rounded-2" placeholder="Adicone as etapas aqui."
+                                    data-input-item>
+                                <span class="input-group-text rounded-2 fundo-bege ms-1 px-3 text-center"
+                                    data-botao-adicionar>
+                                    <p class="d-md-block d-none m-0">Adicionar</p><i
+                                        class="fw-bold bi bi-plus-square ms-0 ms-md-2"></i>
+                                </span>
                             </div>
-                            <ul class="list-group" data-lista data-lista-etapas>
-                               
-                            </ul>
+                            <ol class="list-group" data-lista data-lista-etapas>
+
+                            </ol>
                         </div>
                         <!--Input de Tempo de Preparo-->
                         <div class="mb-3 mt-2">
                             <label for="tempoPreparo" class="form-label fs-5">Tempo de preparo</label>
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control text-end" placeholder="horas"
-                                    aria-label="Username" required data-input-hora>
+                                <input type="number" class="form-control text-end input-tempo" min="0" max="12"
+                                    placeholder="horas" aria-label="Username" data-input-hora>
                                 <span class="input-group-text fundo-bege">h</span>
-                                <input type="text" class="form-control text-end" placeholder="minutos"
-                                    aria-label="Server" required data-input-min>
+                                <input type="number" class="form-control text-end input-tempo" min="0" max="59"
+                                    placeholder="minutos" aria-label="Server" data-input-min>
                                 <span class="input-group-text fundo-bege">min</span>
                             </div>
                         </div>
                     </form>
                 </div>
             </section>
+            <!--Botão de envio-->
             <div class="col-8 col-md-4">
-                <input type="submit" class="btn btn-receita container-fluid p-2 w-md-25" value="Enviar receita">
+                <input type="submit" class="btn btn-receita container-fluid p-2 w-md-25" value="Enviar receita"
+                    data-enviar-receita>
             </div>
-            
+
+            <!--Aviso de erro na publicação-->
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="avisoErro" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <img src="./assets/logojantar.png" class="rounded me-2 img-aviso" alt="icone do jantar a dois">
+                        <strong class="me-auto">Existe algo de errado...</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body" data-texto-aviso>
+                        
+                    </div>
+                </div>
+            </div>
+
         </section>
 
     </main>
@@ -199,6 +238,7 @@
         crossorigin="anonymous"></script>
     <script type="module" src="./scripts//Pagina-publicacao/envioFoto.js"></script>
     <script src="./scripts/Pagina-publicacao/inputListagemPub.js"></script>
+    <script type="module" src="./scripts/Pagina-publicacao/envioPublicacao.js"></script>
 </body>
 
 </html>

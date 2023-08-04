@@ -1,3 +1,5 @@
+
+
 //Função de bloqueio de envio padrão dos inputs
 
 const inputs = document.querySelectorAll('input');
@@ -24,9 +26,9 @@ function listarItem() {
     let conteudoItem = itemAtual.querySelector('[data-input-item]');
 
     listaVigente.innerHTML += ` 
-    <li class="list-group-item p-0">
+    <li class="list-group-item p-0 mb-1 border-0 border-none">
         <div class="input-group">
-            <input type="text" class="form-control" value="${conteudoItem.value}" required>
+            <input type="text" class="form-control" value="${conteudoItem.value}">
             <span class="input-group-text fundo-bege"><i class="bi bi-x-lg fw-bold" data-apaga-item></i></span>
         </div>
     </li>`

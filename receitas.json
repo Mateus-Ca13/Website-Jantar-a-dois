@@ -1,183 +1,185 @@
 {
-    "receitas": [ 
-        {
-            "foto": "./assets/receitas-img/lasanha-img.png",
-            "titulo": "Lasanha a Bolonhesa",
-            "descricao": "Suculenta e ótima opção para almoço de domingo com a família.",
-            "categoria": "Prato principal, Família, Massas",
-            "tempoPreparo": "50min", 
-            "pessoasServidas": "4-5",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4, ingrediente 5",
-            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5 , passo 6",
-            "favoritos": "147"
-        },
-
-        {
-            "foto": "./assets/receitas-img/sorvete-img.png",
-            "titulo": "Sorvete Caseiro",
-            "descricao": "Sorvete de creme com poucos ingredientes.",
-            "categoria": "Sobremesa, Caseiro",
-            "tempoPreparo": "2h",
-            "pessoasServidas": "3-4",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3",
-            "modoPreparo": "passo 1, passo 2, passo 3",
-            "favoritos": "98"
-        },
-
-        {
-            "foto": "./assets/receitas-img/salada-img.png",
-            "titulo": "Salada Tropical",
-            "descricao": "Deliciosa para acompanhar qualquer refeição",
-            "categoria": "Saudável, Salada",
-            "tempoPreparo": "15min",
-            "pessoasServidas": "2-3",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4",
-            "modoPreparo": "passo 1, passo 2, passo 3",
-            "favoritos": "133"
-        },
-
-        {
-            "foto": "./assets/receitas-img/batata-img.png",
-            "titulo": "Batata Gratinada",
-            "descricao": "Pode desde acompanhar carnes até ser o prato principal.",
-            "categoria": "Batata, Acompanhamento",
-            "tempoPreparo": "40min",
-            "pessoasServidas": "3-4",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3",
-            "modoPreparo": "passo 1, passo 2, passo 3, passo 4",
-            "favoritos": "101"
-        },
-
-        {
-            "foto": "./assets/receitas-img/guacamole-img.png",
-            "titulo": "Guacamole Caseiro",
-            "descricao": "Molho único ótimo para acompanhar petiscos.",
-            "categoria": "Molho, Acompanhamento",
-            "tempoPreparo": "25min",
-            "pessoasServidas": "4-5",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4, ingrediente 5",
-            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5",
-            "favoritos": "34"
-        },
-
-        {
-            "foto": "./assets/receitas-img/sopa-img.png",
-            "titulo": "Sopa de Creme de Cebola",
-            "descricao": "Ótima opção para noites frias",
-            "categoria": "Sopa, Frio",
-            "tempoPreparo": "1h",
-            "pessoasServidas": "3-4",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4, ingrediente 5, ingrediente 6",
-            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5 , passo 6, passo 7, passo 8 ",
-            "favoritos": "81"
-        },
-
-        {
-            "foto": "./assets/receitas-img/torta-img.png",
-            "titulo":"Torta de Maçã",
-            "descricao": "Uma deliciosa torta de maçã com uma crosta crocante e recheio suculento.",
-            "categoria": "Sobremesa, Torta",
-            "tempoPreparo": "1h",
-            "pessoasServidas": "4-5",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4, ingrediente 5",
-            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5",
-            "favoritos": "95"
-        },
-
-        {
-            "foto": "./assets/receitas-img/frango-img.png",
-            "titulo": "Frango Assado",
-            "descricao": "Um suculento frango assado temperado com ervas e especiarias, perfeito para uma refeição em família.",
-            "categoria": "Prato principal, Frango",
-            "tempoPreparo": "1h30min",
-            "pessoasServidas": "2-3",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3",
-            "modoPreparo": "passo 1, passo 2, passo 3",
-            "favoritos": "129"
-        },
-
-        {
-            "foto": "./assets/receitas-img/smoothie-img.png",
-            "titulo": "Smoothie de Frutas Tropicais",
-            "descricao": "Um refrescante smoothie feito com uma combinação de frutas tropicais.",
-            "categoria": "Bebida, Frutas",
-            "tempoPreparo": "15min",
-            "pessoasServidas": "1-2",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4",
-            "modoPreparo": "passo 1, passo 2, passo 3",
-            "favoritos": "40"
-        },
-
-        {
-            "foto": "./assets/receitas-img/paoqueijo-img.png",
-            "titulo": "Pão de Queijo",
-            "descricao": "Deliciosos pãezinhos de queijo com uma casquinha crocante por fora e um interior macio e queijo derretido.",
-            "categoria": "Aperitivo, Tarde",
-            "tempoPreparo": "40min",
-            "pessoasServidas": "4-5",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3",
-            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5 , passo 6",
-            "favoritos": "63"
-        },
-
-        {
-            "foto": "./assets/receitas-img/risoto-img.png",
-            "titulo": "Risoto de Cogumelos",
-            "descricao": "Um risoto cremoso preparado com cogumelos frescos, caldo de legumes e queijo parmesão.",
-            "categoria": "Prato principal, Cogumelos",
-            "tempoPreparo": "45min",
-            "pessoasServidas": "3-4",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4, ingrediente 5, ingrediente 6",
-            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5 , passo 6, passo 7",
-            "favoritos": "26"
-        },
-
-        {
-            "foto": "./assets/receitas-img/bolo-img.png",
-            "titulo": "Bolo de Chocolate",
-            "descricao": "Um bolo de chocolate úmido e macio, perfeito para os amantes de chocolate.",
-            "categoria": "Sobremesa, Chocolate",
-            "tempoPreparo": "1h15min",
-            "pessoasServidas": "5-6",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4, ingrediente 5, ingrediente 6, ingrediente 7",
-            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5 , passo 6",
-            "favoritos": "87"
-        },
-
-        {
-            "foto": "./assets/receitas-img/mousse-img.png",
-            "titulo": "Mousse de Limão",
-            "descricao": "Uma sobremesa leve e refrescante feita com suco de limão, creme de leite e açúcar.",
-            "categoria": "Sobremesa, Mousse",
-            "tempoPreparo": "30min",
-            "pessoasServidas": "4-5",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4",
-            "modoPreparo": "passo 1, passo 2, passo 3",
-            "favoritos": "77"
-        },
-
-        {
-            "foto": "./assets/receitas-img/bife-img.png",
-            "titulo": "Bife à Parmegiana",
-            "descricao": "Um suculento bife de carne bovina empanado, coberto com molho de tomate e queijo derretido.",
-            "categoria": "Prato principal",
-            "tempoPreparo": "45min",
-            "pessoasServidas": "3-4",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4",
-            "modoPreparo": "passo 1, passo 2, passo 3, passo 4, passo 5 , passo 6, passo 7",
-            "favoritos": "95"
-        },
-
-        {
-            "foto": "./assets/receitas-img/sanduiche-img.png",
-            "titulo": "Sanduíche de Frango",
-            "descricao": "Um delicioso sanduíche de frango grelhado com alface, tomate e maionese.",
-            "categoria": "Lanche, Fácil",
-            "tempoPreparo": "15min",
-            "pessoasServidas": "1-2",
-            "ingredientes": "ingrediente 1, ingrediente 2, ingrediente 3, ingrediente 4",
-            "modoPreparo": "passo 1, passo 2, passo 3",
-            "favoritos": "83"
-        }
-    ]
+  "receitas": [
+    {
+      "id": "aA1aA1a",
+      "foto": "./assets/receitas-img/lasanha-img.png",
+      "titulo": "Lasanha a Bolonhesa",
+      "descricao": "Suculenta e ótima opção para almoço de domingo com a família.",
+      "categoria": "Prato principal/#/ Família/#/ Massas",
+      "tempoPreparo": "50min",
+      "pessoasServidas": "4-5 pessoas",
+      "ingredientes": "500g de massa de lasanha pré-cozida/#/ 500g de carne moída/#/ 1 cebola média picada/#/ 2 dentes de alho picados/#/ 800g de molho de tomate/#/ 200g de queijo muçarela fatiado/#/ 100g de queijo parmesão ralado/#/ Azeite de oliva/#/ Sal e pimenta a gosto",
+      "modoPreparo": "Em uma panela grande, aqueça um pouco de azeite de oliva e refogue a cebola e o alho até ficarem dourados./#/ Adicione a carne moída à panela e cozinhe até que ela esteja bem dourada e cozida por completo./#/ Tempere com sal e pimenta a gosto./#/ Acrescente o molho de tomate à carne moída e deixe cozinhar em fogo baixo por cerca de 10 minutos, para apurar o sabor./#/ Enquanto isso, pré-aqueça o forno a 180°C./#/ Em um refratário retangular grande, faça camadas alternadas de massa de lasanha pré-cozida, molho bolonhesa e queijo muçarela fatiado./#/ Continue as camadas até terminarem os ingredientes, finalizando com uma camada de molho e queijo muçarela por cima./#/ Polvilhe o queijo parmesão ralado sobre a última camada./#/ Leve a lasanha ao forno por aproximadamente 30 a 40 minutos, ou até que a superfície esteja gratinada e dourada./#/ Retire do forno e deixe descansar por alguns minutos antes de servir.",
+      "favoritos": "147"
+    },
+    {
+      "id": "bB2bB2b",
+      "foto": "./assets/receitas-img/sorvete-img.png",
+      "titulo": "Sorvete Caseiro",
+      "descricao": "Sorvete de creme com poucos ingredientes.",
+      "categoria": "Sobremesa/#/ Caseiro",
+      "tempoPreparo": "2h",
+      "pessoasServidas": "3-4 pessoas",
+      "ingredientes": "500ml de creme de leite fresco/#/ 1 lata de leite condensado/#/ 1 colher de chá de essência de baunilha/#/ Frutas picadas a gosto (opcional) - morangos, bananas, manga, etc.",
+      "modoPreparo": "Coloque o creme de leite fresco em uma tigela e bata com uma batedeira em velocidade média-alta até obter picos firmes./#/ Adicione o leite condensado à tigela e misture delicadamente com uma espátula, incorporando o creme de leite batido ao leite condensado./#/ Acrescente a essência de baunilha e continue misturando até obter uma mistura homogênea e cremosa./#/ Se desejar, adicione as frutas picadas ao sorvete e misture suavemente para distribuí-las na massa./#/ Transfira a mistura para um recipiente com tampa, como uma forma de bolo inglês ou um pote com tampa hermética./#/ Cubra o recipiente com plástico filme ou coloque a tampa e leve ao freezer./#/ Deixe o sorvete caseiro no freezer por pelo menos 4 horas ou até que esteja completamente congelado e com consistência de sorvete./#/ Sirva em taças ou casquinhas e aproveite o delicioso sorvete caseiro!",
+      "favoritos": "98"
+    },
+    {
+      "id": "cC3cC3c",
+      "foto": "./assets/receitas-img/salada-img.png",
+      "titulo": "Salada Tropical",
+      "descricao": "Deliciosa para acompanhar qualquer refeição",
+      "categoria": "Saudável/#/ Salada",
+      "tempoPreparo": "15min",
+      "pessoasServidas": "2-3 pessoas",
+      "ingredientes": "2 xícaras de alface crespa ou americana picada/#/ 1 xícara de rúcula/#/ 1 xícara de agrião/#/ 1 manga madura cortada em cubos/#/ 1 abacaxi pequeno cortado em cubos/#/ 1/2 xícara de uvas sem sementes cortadas ao meio/#/ 1/2 xícara de kiwi descascado e cortado em fatias/#/ 1/2 xícara de nozes ou castanhas picadas/#/ Suco de 1 limão/#/ 2 colheres de sopa de azeite de oliva/#/ Sal e pimenta a gosto",
+      "modoPreparo": "Coloque a alface crespa ou americana picada, rúcula e agrião em uma tigela grande./#/ Adicione a manga madura cortada em cubos, o abacaxi pequeno cortado em cubos, as uvas sem sementes cortadas ao meio e o kiwi descascado e cortado em fatias à tigela, misturando delicadamente para não amassar as frutas./#/ Em uma pequena tigela, misture o suco de limão, o azeite de oliva, o sal e a pimenta para fazer o molho da salada./#/ Regue o molho sobre a salada e misture bem para que todos os ingredientes fiquem levemente cobertos pelo tempero./#/ Adicione as nozes ou castanhas picadas por cima da salada para dar um toque crocante./#/ Sirva imediatamente para aproveitar a frescura e a mistura de sabores da salada tropical.",
+      "favoritos": "133"
+    },
+    {
+      "id": "dD4dD4d",
+      "foto": "./assets/receitas-img/batata-img.png",
+      "titulo": "Batata Gratinada",
+      "descricao": "Pode desde acompanhar carnes até ser o prato principal.",
+      "categoria": "Batata/#/ Acompanhamento",
+      "tempoPreparo": "40min",
+      "pessoasServidas": "3-4 pessoas",
+      "ingredientes": "1 kg de batatas descascadas e cortadas em rodelas finas/#/ 2 xícaras de creme de leite fresco/#/ 1 xícara de leite/#/ 2 dentes de alho picados/#/ 1 colher de sopa de manteiga/#/ 1 colher de sopa de farinha de trigo/#/ 1 xícara de queijo gruyère ralado/#/ 1 xícara de queijo parmesão ralado/#/ Sal e pimenta a gosto/#/ Noz-moscada a gosto (opcional)/#/ Salsinha picada para decorar (opcional)",
+      "modoPreparo": "Em uma panela grande, cozinhe as rodelas de batata em água fervente com um pouco de sal até que fiquem levemente macias./#/ Escorra a água e reserve as batatas./#/ Em outra panela, derreta a manteiga em fogo médio./#/ Adicione o alho picado e refogue por alguns instantes até ficar levemente dourado./#/ Acrescente a farinha de trigo à panela e misture bem com a manteiga e o alho, formando um roux./#/ Adicione o creme de leite fresco e o leite à panela, mexendo sempre para evitar a formação de grumos. Cozinhe até obter um creme encorpado./#/ Tempere o creme com sal, pimenta e noz-moscada a gosto, lembrando que os queijos também têm sal, então não exagere no tempero./#/ Em um refratário untado com manteiga, faça uma camada de batatas no fundo./#/ Despeje parte do creme sobre as batatas e espalhe um pouco do queijo gruyère ralado por cima./#/ Repita as camadas até acabarem as batatas, terminando com o creme e o queijo gruyère por cima./#/ Polvilhe o queijo parmesão ralado sobre toda a superfície da batata gratinada./#/ Leve ao forno pré-aquecido e asse por cerca de 30 a 40 minutos, ou até que a batata esteja macia e a superfície dourada e gratinada./#/ Retire do forno e deixe descansar por alguns minutos antes de servir./#/ Se desejar, decore com salsinha picada antes de servir.",
+      "favoritos": "101"
+    },
+    {
+      "id": "eE5eE5e",
+      "foto": "./assets/receitas-img/guacamole-img.png",
+      "titulo": "Guacamole Caseiro",
+      "descricao": "Molho único ótimo para acompanhar petiscos.",
+      "categoria": "Molho/#/ Acompanhamento",
+      "tempoPreparo": "25min",
+      "pessoasServidas": "4-5 pessoas",
+      "ingredientes": "3 avocados (abacates) maduros/#/ 1 tomate médio picado em cubos pequenos/#/ 1 cebola média picada em cubos pequenos/#/ 1 dente de alho picado finamente/#/ Suco de 1 limão/#/ 1/4 de xícara de coentro picado/#/ Pimenta dedo-de-moça ou pimenta jalapeño picada a gosto (opcional, para dar um toque picante)/#/ Sal e pimenta-do-reino a gosto",
+      "modoPreparo": "Corte os avocados ao meio, retire o caroço e, com uma colher, retire a polpa./#/ Coloque a polpa dos avocados em uma tigela e amasse com um garfo até obter uma consistência de purê, mas deixando alguns pedaços para dar textura à guacamole./#/ Adicione o tomate picado, a cebola picada, o alho picado e o coentro picado à tigela com o purê de avocado./#/ Esprema o suco de limão sobre a mistura para evitar que o avocado escureça e para dar um toque cítrico ao guacamole./#/ Se quiser um toque picante, adicione a pimenta dedo-de-moça ou jalapeño picada a gosto./#/ Tempere com sal e pimenta-do-reino a gosto e misture bem todos os ingredientes./#/ Prove e ajuste o tempero conforme sua preferência./#/ Cubra a tigela com plástico filme, pressionando-o diretamente sobre o guacamole para evitar a oxidação, e leve à geladeira por pelo menos 30 minutos antes de servir.",
+      "favoritos": "34"
+    },
+    {
+      "id": "fF6fF6f",
+      "foto": "./assets/receitas-img/sopa-img.png",
+      "titulo": "Sopa de Creme de Cebola",
+      "descricao": "Ótima opção para noites frias",
+      "categoria": "Sopa/#/ Frio",
+      "tempoPreparo": "1h",
+      "pessoasServidas": "3-4 pessoas",
+      "ingredientes": "4 cebolas médias cortadas em rodelas finas/#/ 3 colheres de sopa de manteiga/#/ 3 colheres de sopa de farinha de trigo/#/ 1 litro de caldo de carne ou caldo de legumes/#/ 1 xícara de creme de leite/#/ Sal e pimenta a gosto/#/ Queijo ralado para polvilhar (opcional)",
+      "modoPreparo": "Em uma panela grande, derreta a manteiga em fogo médio./#/ Adicione as cebolas cortadas e refogue até ficarem douradas e caramelizadas./#/ Polvilhe a farinha de trigo sobre as cebolas e misture bem, formando um roux./#/ Gradualmente, adicione o caldo de carne ou caldo de legumes à panela, mexendo constantemente para evitar a formação de grumos./#/ Cozinhe a sopa em fogo baixo por cerca de 20 a 30 minutos, até que as cebolas estejam bem macias e a sopa tenha engrossado ligeiramente./#/ Tempere com sal e pimenta a gosto./#/ Adicione o creme de leite à sopa e misture bem./#/ Leve a sopa de creme de cebola de volta ao fogo por mais alguns minutos para aquecer./#/ Sirva quente e, se desejar, polvilhe queijo ralado por cima antes de servir.",
+      "favoritos": "81"
+    },
+    {
+      "id": "gG7gG7g",
+      "foto": "./assets/receitas-img/torta-img.png",
+      "titulo": "Torta de Maçã",
+      "descricao": "Uma deliciosa torta de maçã com uma crosta crocante e recheio suculento.",
+      "categoria": "Sobremesa/#/ Torta",
+      "tempoPreparo": "1h",
+      "pessoasServidas": "4-5 pessoas",
+      "ingredientes": "2 xícaras de farinha de trigo/#/ 1 colher de sopa de açúcar/#/ 1 pitada de sal/#/ 200g de manteiga gelada, cortada em cubos pequenos/#/ 4 a 6 colheres de sopa de água gelada/#/ 6 maçãs médias descascadas, sem sementes e cortadas em fatias finas/#/ 1/2 xícara de açúcar/#/ Suco de meio limão/#/ 1 colher de chá de canela em pó/#/ 1/2 colher de chá de noz-moscada em pó/#/ 2 colheres de sopa de farinha de trigo",
+      "modoPreparo": "Em uma tigela grande, misture a farinha, o açúcar e o sal./#/ Adicione a manteiga gelada e, com as pontas dos dedos ou um cortador de massa, incorpore a manteiga à farinha até obter uma mistura granulada./#/ Adicione a água gelada, aos poucos, até formar uma massa que se desprenda das mãos./#/ Enrole a massa em plástico filme e leve à geladeira por pelo menos 30 minutos./#/ Em uma tigela grande, misture as maçãs fatiadas, o açúcar, o suco de limão, a canela, a noz-moscada e a farinha de trigo./#/ Misture bem para que as maçãs fiquem bem envolvidas com os temperos./#/ Preaqueça o forno a 200°C./#/ Em uma superfície levemente enfarinhada, abra a massa com um rolo até obter um círculo grande o suficiente para cobrir o fundo e as laterais de uma forma de torta./#/ Transfira a massa para a forma e pressione levemente para ajustá-la ao formato da forma./#/ Despeje o recheio de maçã na massa./#/ Se desejar, cubra a torta com outra camada de massa, fazendo furos na superfície para que o vapor possa sair./#/ Leve a torta ao forno preaquecido e asse por cerca de 40 a 50 minutos, ou até que a massa esteja dourada e o recheio de maçã esteja cozido e borbulhante./#/ Retire do forno e deixe a torta esfriar antes de servir.",
+      "favoritos": "95"
+    },
+    {
+      "id": "hH8hH8h",
+      "foto": "./assets/receitas-img/frango-img.png",
+      "titulo": "Frango Assado",
+      "descricao": "Um suculento frango assado temperado com ervas e especiarias, perfeito para uma refeição em família.",
+      "categoria": "Prato principal/#/ Frango",
+      "tempoPreparo": "1h30min",
+      "pessoasServidas": "4-5 pessoas",
+      "ingredientes": "1 frango inteiro (aproximadamente 1,5 kg)/#/ 3 dentes de alho picados/#/ Suco de 1 limão/#/ 1/4 de xícara de azeite/#/ 1 colher de chá de sal/#/ 1/2 colher de chá de pimenta-do-reino/#/ 1 colher de chá de páprica doce (opcional)/#/ Ervas frescas a gosto (como alecrim, tomilho e sálvia)",
+      "modoPreparo": "Lave bem o frango e seque-o com papel toalha./#/ Em uma tigela, misture o alho picado, o suco de limão, o azeite, o sal, a pimenta-do-reino e a páprica doce (se estiver usando)./#/ Esfregue essa mistura por toda a superfície do frango, inclusive por baixo da pele./#/ Coloque o frango em uma assadeira e acrescente as ervas frescas ao redor./#/ Cubra com papel alumínio e leve ao forno preaquecido a 180°C por cerca de 1 hora./#/ Retire o papel alumínio e deixe assar por mais 30 minutos, ou até que a pele fique dourada e crocante./#/ Sirva o frango assado com as ervas e o caldo que se formou na assadeira.",
+      "favoritos": "129"
+    },
+    {
+      "id": "iI9iI9i",
+      "foto": "./assets/receitas-img/smoothie-img.png",
+      "titulo": "Smoothie de Frutas Tropicais",
+      "descricao": "Um refrescante smoothie feito com uma combinação de frutas tropicais.",
+      "categoria": "Bebida/#/ Frutas",
+      "tempoPreparo": "15min",
+      "pessoasServidas": "1-2 pessoas",
+      "ingredientes": "1 banana/#/ 1/2 xícara de abacaxi picado/#/ 1/2 xícara de manga picada/#/ 1/2 xícara de leite de coco/#/ 1/2 xícara de suco de laranja/#/ Gelo a gosto (opcional)/#/ Mel ou adoçante a gosto (opcional)",
+      "modoPreparo": "Coloque todos os ingredientes no liquidificador./#/ Bata até obter uma mistura homogênea e cremosa./#/ Se desejar, adoce com mel ou adoçante./#/ Sirva imediatamente em um copo com gelo (opcional).",
+      "favoritos": "40"
+    },
+    {
+      "id": "jJ0jJ0j",
+      "foto": "./assets/receitas-img/paoqueijo-img.png",
+      "titulo": "Pão de Queijo",
+      "descricao": "Deliciosos pãezinhos de queijo com uma casquinha crocante por fora e um interior macio e queijo derretido.",
+      "categoria": "Aperitivo/#/ Tarde",
+      "tempoPreparo": "40min",
+      "pessoasServidas": "4-5 pessoas",
+      "ingredientes": "500g de polvilho doce/250ml de leite/100ml de óleo vegetal/2 ovos/150g de queijo minas padrão ou queijo meia cura ralado/1 colher de chá de sal",
+      "modoPreparo": "Em uma panela, aqueça o leite e o óleo até ferver./#/ Em uma tigela grande, coloque o polvilho doce e adicione a mistura de leite e óleo fervendo sobre ele./#/ Mexa bem até que a massa fique homogênea./#/ Deixe a massa esfriar por alguns minutos./#/ Adicione os ovos um a um na massa, misturando bem após cada adição./#/ Acrescente o queijo ralado e o sal, e continue misturando até obter uma massa lisa e uniforme./#/ Pré-aqueça o forno a 180°C./#/ Modele pequenas bolas de massa e coloque-as em uma assadeira untada ou forrada com papel manteiga, deixando espaço entre elas./#/ Leve ao forno por aproximadamente 20 minutos ou até que os pães de queijo estejam dourados.",
+      "favoritos": "63"
+    },
+    {
+      "id": "kK1kK1",
+      "foto": "./assets/receitas-img/risoto-img.png",
+      "titulo": "Risoto de Cogumelos",
+      "descricao": "Um risoto cremoso preparado com cogumelos frescos, caldo de legumes e queijo parmesão.",
+      "categoria": "Prato principal/#/ Cogumelos",
+      "tempoPreparo": "45min",
+      "pessoasServidas": "3-4 pessoas",
+      "ingredientes": "2 xícaras de arroz arbóreo (próprio para risoto)/#/ 1 cebola picada/#/ 2 dentes de alho picados/#/ 300g de cogumelos frescos (cogumelos Paris, shiitake, ou outros de sua preferência)/#/ 1/2 xícara de vinho branco seco (opcional)/#/ 1,5 litros de caldo de legumes ou caldo de galinha/#/ 2 colheres de sopa de manteiga/#/ 1/2 xícara de queijo parmesão ralado/#/ Sal e pimenta a gosto/#/ Salsinha ou cebolinha picada para finalizar (opcional)",
+      "modoPreparo": "Em uma panela grande, aqueça um pouco de azeite e refogue a cebola e o alho até ficarem dourados./#/ Adicione os cogumelos e refogue até que estejam macios./#/ Acrescente o arroz arbóreo e refogue por mais alguns minutos./#/ Se estiver usando, coloque o vinho branco e deixe evaporar./#/ Adicione o caldo de legumes ou caldo de galinha, aos poucos, mexendo sempre até o arroz cozinhar e ficar cremoso (esse processo leva cerca de 20 minutos)./#/ Desligue o fogo, acrescente a manteiga e o queijo parmesão ralado. Mexa bem para incorporar./#/ Tempere com sal e pimenta a gosto./#/ Finalize com salsinha ou cebolinha picada, se desejar.",
+      "favoritos": "26"
+    },
+    {
+      "id": "lL2lL2l",
+      "foto": "./assets/receitas-img/bolo-img.png",
+      "titulo": "Bolo de Chocolate",
+      "descricao": "Um bolo de chocolate úmido e macio, perfeito para os amantes de chocolate.",
+      "categoria": "Sobremesa/#/ Chocolate",
+      "tempoPreparo": "1h15min",
+      "pessoasServidas": "5-6 pessoas",
+      "ingredientes": "2 xícaras de farinha de trigo/#/ 1 xícara de cacau em pó/#/ 1 e 1/2 colher de chá de bicarbonato de sódio/#/ 1/2 colher de chá de sal/#/ 1 xícara de açúcar/#/ 1 xícara de leite/#/ 1/2 xícara de óleo vegetal/#/ 2 ovos/#/ 1 colher de chá de essência de baunilha/#/ 1 xícara de água quente",
+      "modoPreparo": "Preaqueça o forno a 180°C. Unte e enfarinhe uma forma de bolo./#/ Em uma tigela, peneire a farinha de trigo, o cacau em pó, o bicarbonato de sódio e o sal. Reserve./#/ Em outra tigela, misture o açúcar, o leite, o óleo vegetal, os ovos e a essência de baunilha. Bata bem até obter uma mistura homogênea./#/ Aos poucos, adicione os ingredientes secos à mistura líquida, alternando com a água quente. Misture bem até obter uma massa lisa./#/ Despeje a massa na forma preparada e leve ao forno por aproximadamente 30-35 minutos, ou até que um palito inserido no centro saia limpo./#/ Retire o bolo do forno e deixe esfriar antes de desenformar. Se desejar, decore com cobertura de chocolate ou açúcar de confeiteiro.",
+      "favoritos": "87"
+    },
+    {
+      "id": "mM3mM3m",
+      "foto": "./assets/receitas-img/mousse-img.png",
+      "titulo": "Mousse de Limão",
+      "descricao": "Uma sobremesa leve e refrescante feita com suco de limão, creme de leite e açúcar.",
+      "categoria": "Sobremesa/#/ Mousse",
+      "tempoPreparo": "30min",
+      "pessoasServidas": "3-4 pessoas",
+      "ingredientes": "1 lata de leite condensado/#/ Suco de 3 limões/#/ 1 lata de creme de leite",
+      "modoPreparo": "Em uma tigela, misture o leite condensado com o suco de limão até obter uma mistura homogênea./#/ Acrescente o creme de leite e misture delicadamente até incorporar./#/ Leve à geladeira por pelo menos 2 horas antes de servir./#/ Sirva gelado e, se desejar, decore com raspas de limão.",
+      "favoritos": "77"
+    },
+    {
+      "id": "nN4nN4n",
+      "foto": "./assets/receitas-img/bife-img.png",
+      "titulo": "Bife à Parmegiana",
+      "descricao": "Um suculento bife de carne bovina empanado, coberto com molho de tomate e queijo derretido.",
+      "categoria": "Prato principal/#/ Bife/#/ Parmegiana",
+      "tempoPreparo": "45min",
+      "pessoasServidas": "3-4 pessoas",
+      "ingredientes": "Bifes de carne (patinho, alcatra, ou outra carne de sua preferência)/#/ Sal e pimenta a gosto/#/ Farinha de trigo/#/ Ovos batidos/#/ Farinha de rosca/#/ Molho de tomate/#/ Queijo muçarela fatiado/#/ Queijo parmesão ralado/#/ Óleo para fritar",
+      "modoPreparo": "Tempere os bifes com sal e pimenta a gosto./#/ Passe cada bife na farinha de trigo, nos ovos batidos e na farinha de rosca, empanando bem./#/ Frite os bifes em óleo quente até dourarem dos dois lados./#/ Em uma assadeira, coloque uma camada de molho de tomate, os bifes empanados, mais molho de tomate por cima, e cubra com as fatias de queijo muçarela./#/ Polvilhe queijo parmesão ralado por cima./#/ Leve ao forno preaquecido a 180°C por cerca de 15-20 minutos, ou até que o queijo esteja derretido e dourado./#/ Sirva o Bife à Parmegiana acompanhado de arroz e salada.",
+      "favoritos": "95"
+    },
+    {
+      "id": "oO5oO5o",
+      "foto": "./assets/receitas-img/sanduiche-img.png",
+      "titulo": "Sanduíche de Frango",
+      "descricao": "Um delicioso sanduíche de frango grelhado com alface, tomate e maionese.",
+      "categoria": "Lanche/#/ Fácil",
+      "tempoPreparo": "15min",
+      "pessoasServidas": "1-2 pessoas",
+      "ingredientes": "Peito de frango cozido e desfiado/#/ Maionese/#/ Mostarda/#/ Suco de limão/#/ Sal e pimenta a gosto/#/ Pão de forma/#/ Alface/#/ Tomate/#/ Queijo muçarela (opcional)",
+      "modoPreparo": "Em uma tigela, misture o frango desfiado, maionese, mostarda, suco de limão, sal e pimenta a gosto./#/ Espalhe a mistura sobre as fatias de pão de forma./#/ Acrescente alface, tomate e queijo muçarela (se desejar)./#/ Feche o sanduíche e corte em formato triangular./#/ Sirva o Sanduíche de Frango como lanche ou acompanhado de batatas fritas.",
+      "favoritos": "83"
+    }
+   
+  ]
 }

@@ -6,7 +6,7 @@ const inputFoto = document.querySelector('[data-input-foto]')
 const moldeFoto = document.querySelector('[data-foto-enviada]')
 const botaoExcluirFoto = document.querySelector('[data-retirar-foto]')
 
-botaoExcluirFoto.addEventListener('click', function () {moldeFoto.src = "./assets/selecionar-imagem.png"})
+botaoExcluirFoto.addEventListener('click', function () {moldeFoto.src = "./assets/fundo-logo.png"})
 
 botaoFoto.addEventListener('click', function () {inputFoto.focus()})
 
@@ -16,11 +16,17 @@ inputFoto.addEventListener('change', function () {
    const leitorArquivo = new FileReader();
 
    leitorArquivo.onload = function (e) {
-    moldeFoto.src = e.target.result;
+      const imagem = new Image();
+
+      imagem.height = 20
+      imagem.src = e.target.result;
+      moldeFoto.src = imagem.src;
+      
+    
+    
    }
    leitorArquivo.readAsDataURL(foto)
    moldeFoto.innerHTML = foto;
 
 })
 
-//Aba de importcação de titulo, descrição 
