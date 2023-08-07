@@ -1,3 +1,4 @@
+
 const fotoReceita = document.querySelector('[data-foto-receita]')
 const nomeReceita = document.querySelector('[data-nome-receita');
 const descricaoReceita = document.querySelector('[data-descricao-receita]');
@@ -20,9 +21,9 @@ function renderizarElementos (receitaRenderizada) {
     renderizarComponenteSimples(descricaoReceita, receitaRenderizada.descricao);  
     renderizarComponenteSimples(tempoReceita, receitaRenderizada.tempoPreparo);  
     renderizarComponenteSimples(pessoasServidasReceita, receitaRenderizada.pessoasServidas); 
-    renderizarCategoria (receitaRenderizada.categoria)
-    renderizarLista (listaIngredientesReceita, receitaRenderizada.ingredientes)
-    renderizarLista (listaEtapasReceita, receitaRenderizada.modoPreparo)
+    renderizarCategoria (receitaRenderizada.categoria);
+    renderizarLista (listaIngredientesReceita, receitaRenderizada.ingredientes);
+    renderizarLista (listaEtapasReceita, receitaRenderizada.modoPreparo);
 }
 
 
@@ -53,4 +54,5 @@ function renderizarLista (local, info) {
         `
     })
 }
+
 

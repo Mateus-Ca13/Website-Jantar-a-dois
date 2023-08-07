@@ -11,10 +11,12 @@
     --marrom-escuro: #623408;
     --marrom-escuro2: #61200ac0;
     --bordo: #af2319;
+    --rosa: #ad514a;
 }
 
 
 /* Estilos generalizados ------------------------------*/
+
 
 body {
     font-size: 14px;
@@ -141,5 +143,9 @@ nav {
     padding: 15px 0 0 5px;
 }
 
+.botao-favoritar-aplicado, .botao-favoritar-aplicado:hover {
+    background-color: var(--rosa);
+    color: #fff;
+}
 
 

@@ -23,6 +23,8 @@ async function criarLinkParaReceita (link) {
         
     }
 
+    export const criaLink = {criarLinkParaReceita}
+
 
 
 

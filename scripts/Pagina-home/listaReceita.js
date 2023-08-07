@@ -56,3 +56,4 @@ function criaCard(imagem, titulo, favoritadas, id) {
     `
     return card;
 }
+
