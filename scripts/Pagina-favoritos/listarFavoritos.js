@@ -5,6 +5,14 @@ function montarListaDeReceitas () {
     const lista = captarListaFavoritadas()
     lista.forEach(receita => {secaoFavoritadas.appendChild(criaCard(receita.foto, receita.titulo, receita.id));});
 
+    //Verificação de conteúdo da lista
+    if (secaoFavoritadas.innerHTML == 0 ) {
+        secaoFavoritadas.innerHTML += `
+        <div>
+            <h4 class="text-center mt-5 fonte-marrom">Você ainda não possui receitas favoritadas!</h2>
+        </div>
+        `;
+    }
 }
 
 function captarListaFavoritadas() {

@@ -149,3 +149,11 @@ nav {
 }
 
 
+/* Estilos Buscar receitas ----------------------------*/
+
+.img-card-busca {
+    max-width: 14rem;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+

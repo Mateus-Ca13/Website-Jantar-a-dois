@@ -22,19 +22,20 @@
                     <button class="btn nav-btn dropdown-toggle px-3" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">Categorias</button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Salgados</a></li>
-                        <li><a class="dropdown-item" href="#">Sobremesas</a></li>
-                        <li><a class="dropdown-item" href="#">Especiais</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Ver categorias...</a></li>
+                        <li><a class="dropdown-item" href="#" id="Prato principal" data-botao-categoria>Pratos principais</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#" id="Sobremesa" data-botao-categoria>Sobremesas</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#" id="Saudável" data-botao-categoria>Saudáveis</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#" id="Acompanhamento" data-botao-categoria>Acompanhamentos</a></li>
+                
                     </ul>
                     <!--Input de Pesquisa-->
                     <input type="text" class="form-control" aria-label="Text input with dropdown button"
-                        placeholder="Busque por uma receita...">
+                        placeholder="Busque por uma receita..." data-barra-pesquisa>
 
-                    <button class="btn nav-btn text-light px-3" type="button" id="button-addon2">Buscar</button>
+                    <button class="btn nav-btn text-light px-3" type="button" id="button-addon2" data-pesquisa-enviar>Buscar</button>
                 </div>
                 <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -53,7 +54,7 @@
                                     class="bi bi-star-fill me-2"></i>Destaques</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-btn rounded-3 px-3" href="#"><i
+                            <a class="nav-link nav-btn rounded-3 px-3" href="./receitas-favoritadas.html"><i
                                     class="bi bi-heart-fill me-2"></i>Favoritos</a>
                         </li>
                         <li class="nav-item">
@@ -239,6 +240,7 @@
     <script type="module" src="./scripts//Pagina-publicacao/envioFoto.js"></script>
     <script src="./scripts/Pagina-publicacao/inputListagemPub.js"></script>
     <script type="module" src="./scripts/Pagina-publicacao/envioPublicacao.js"></script>
+    <script src="./scripts/Pagina-busca/fazerBusca.js"></script>
 </body>
 
 </html>

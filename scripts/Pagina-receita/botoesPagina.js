@@ -1,7 +1,7 @@
 const botaoRetornar = document.querySelector('[data-botao-retornar]')
 const botaoFavoritar = document.querySelector('[data-botao-favoritar]')
 
-
+//Botão retornar
 botaoRetornar.addEventListener('click', () => {window.history.back();})
 
 // Botão favoritar
@@ -23,7 +23,7 @@ botaoFavoritar.addEventListener('click', function () {
        let listaReceitasString = JSON.stringify(listaDeReceitas);
     localStorage.setItem("receitasFavoritadas", listaReceitasString);
     console.log("esse item foi favoritado pela primeira vez!");
-   
+    definirFavoritar ("Favoritada")
   
     
     }

@@ -1,7 +1,7 @@
 import { processosAPI } from "../APIReceitas.js";
+import { criaLink } from "../Pagina-home/buscarIDReceita.js";
 
-
-async function listarCategorias() {
+ async function listarCategorias() {
     try {
         const listaDeReceitas = await processosAPI.requisicaoAPI();
         const categorias = [];
@@ -37,7 +37,7 @@ async function listarCategorias() {
         listaCategorias.slice(11, 23).forEach(categoria => {
             abaCategorias.innerHTML += `
             <div class="col-4 col-md-3 col-lg-2 p-0">
-            <button class="btn border btn-receita container-fluid">${categoria}</button>
+            <button class="btn border btn-receita container-fluid" id="${categoria}" onclick="buscaCategoriaBotao(this)" >${categoria}</button>
             </div>
             `
         })
