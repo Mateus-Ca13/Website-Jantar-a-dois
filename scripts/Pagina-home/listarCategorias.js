@@ -36,7 +36,7 @@ import { criaLink } from "../Pagina-home/buscarIDReceita.js";
         const listaCategorias = await listarCategorias()
         listaCategorias.slice(11, 23).forEach(categoria => {
             abaCategorias.innerHTML += `
-            <div class="col-4 col-md-3 col-lg-2 p-0">
+            <div class="col-6 col-md-3 col-lg-2 p-0">
             <button class="btn border btn-receita container-fluid" id="${categoria}" onclick="buscaCategoriaBotao(this)" >${categoria}</button>
             </div>
             `

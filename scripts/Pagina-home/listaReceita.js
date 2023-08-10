@@ -1,7 +1,7 @@
 import { processosAPI } from "../APIReceitas.js";
-var listaNovidades = document.querySelector("[data-novidades]");
-var listaDestaques = document.querySelector("[data-destaques]");
-
+const listaNovidades = document.querySelector("[data-novidades]");
+const listaDestaques = document.querySelector("[data-destaques]");
+const listaDiversas = document.querySelector("[data-receitas-diversas]");
 
 async function listaCardNovidades() {
     try {
@@ -35,6 +35,22 @@ async function listaCardDestaques () {
     }
 }
 listaCardDestaques()
+
+async function listaCardDiversas () {
+    try {
+        const listaDeReceitas = await processosAPI.requisicaoAPI();
+
+        //Com sort faz se um ranqueamento a partir da quantidade de favoritos de uma receita.
+        const listaDeReceitasDiversas = listaDeReceitas;
+
+        listaDeReceitasDiversas.forEach(receita => listaDiversas.appendChild(criaCard(receita.foto, receita.titulo, receita.favoritos, receita.id)));
+    
+        return listaDiversas;
+    } catch {
+        listaDiversas.innerHTML = `<h2 class="text-center fs-5">Não foi possível carregar a lista de receitas<i class="ms-1 bi bi-exclamation-octagon"></i></h2>`
+    }
+}
+listaCardDiversas()
 
 // Função Geral de gerar Cards
 

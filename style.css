@@ -85,6 +85,11 @@ nav {
     color:  var(--marrom-escuro);
 }
 
+footer {
+    background-color: var(--marrom-forte);
+    box-shadow: 0px 0px 10px 1px var(--marrom-escuro);
+}
+
 
 /* Estilos Homepage -----------------------------------*/
 

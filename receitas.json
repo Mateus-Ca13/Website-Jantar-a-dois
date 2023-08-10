@@ -179,6 +179,43 @@
       "ingredientes": "Peito de frango cozido e desfiado/#/ Maionese/#/ Mostarda/#/ Suco de limão/#/ Sal e pimenta a gosto/#/ Pão de forma/#/ Alface/#/ Tomate/#/ Queijo muçarela (opcional)",
       "modoPreparo": "Em uma tigela, misture o frango desfiado, maionese, mostarda, suco de limão, sal e pimenta a gosto./#/ Espalhe a mistura sobre as fatias de pão de forma./#/ Acrescente alface, tomate e queijo muçarela (se desejar)./#/ Feche o sanduíche e corte em formato triangular./#/ Sirva o Sanduíche de Frango como lanche ou acompanhado de batatas fritas.",
       "favoritos": "83"
+    },
+    {
+      "id": "sS9cR2e",
+      "foto": "./assets/receitas-img/salada-caesar-img.png",
+      "titulo": "Salada Caesar",
+      "descricao": "Clássica salada Caesar com molho cremoso e croûtons caseiros.",
+      "categoria": "Saladas/#/ Saudável",
+      "tempoPreparo": "20min",
+      "pessoasServidas": "2-3 pessoas",
+      "ingredientes": "2 corações de alface romana cortados em pedaços grandes/#/ 1 xícara de croutons caseiros/#/ 1/2 xícara de queijo parmesão ralado/#/ 2 peitos de frango cozidos e fatiados/#/ 1/4 de xícara de molho Caesar/#/ 1 dente de alho picado/#/ 1 colher de chá de mostarda Dijon/#/ 2 filés de anchova em conserva, picados/#/ 1 gema de ovo/#/ 2 colheres de sopa de suco de limão/#/ 1/4 de xícara de azeite de oliva/#/ Sal e pimenta a gosto",
+      "modoPreparo": "Em um processador de alimentos, combine o alho picado, a mostarda, as anchovas, a gema de ovo e o suco de limão. Misture bem./#/ Enquanto o processador estiver em funcionamento, adicione lentamente o azeite até que o molho esteja bem emulsionado./#/ Tempere com sal e pimenta a gosto./#/ Em uma tigela grande, coloque as folhas de alface romana cortadas./#/ Adicione o frango fatiado, os croutons e o queijo parmesão ralado./#/ Regue a salada com o molho Caesar preparado e misture bem para combinar todos os ingredientes./#/ Sirva imediatamente como entrada ou acompanhamento.",
+      "favoritos": "77"
+    },
+    {
+      "id": "mM8cC4r",
+      "foto": "./assets/receitas-img/macarrao-carbonara-img.png",
+      "titulo": "Macarrão à Carbonara",
+      "descricao": "Uma tradicional e cremosa receita de macarrão à carbonara direto da Itália.",
+      "categoria": "Prato principal/#/ Massas/#/ Italiana",
+      "tempoPreparo": "35min",
+      "pessoasServidas": "3-4 pessoas",
+      "ingredientes": "300g de espaguete ou fettuccine/#/ 200g de pancetta ou bacon em cubos/#/ 3 gemas de ovo/#/ 75g de queijo pecorino romano ralado/#/ 75g de queijo parmesão ralado/#/ Pimenta-do-reino moída na hora a gosto/#/ Sal a gosto/#/ Salsinha picada para decorar (opcional)",
+      "modoPreparo": "Em uma panela grande, ferva água e adicione sal. Cozinhe o macarrão até ficar al dente, de acordo com as instruções da embalagem. Reserve cerca de 1 xícara da água do cozimento antes de escorrer o macarrão./#/ Enquanto o macarrão cozinha, em uma frigideira grande, frite a pancetta ou o bacon em cubos até ficarem dourados e crocantes. Retire do fogo e reserve./#/ Em uma tigela, misture as gemas de ovo, o queijo pecorino romano e metade do queijo parmesão ralado. Tempere com pimenta-do-reino moída na hora./#/ Quando o macarrão estiver pronto, escorra e imediatamente adicione-o à frigideira com a pancetta ou bacon. Misture bem./#/ Retire a frigideira do fogo e adicione a mistura de ovos e queijos. Mexa rapidamente para que o calor do macarrão cozinhe os ovos, formando um molho cremoso. Se necessário, adicione um pouco da água do cozimento reservada para ajustar a consistência do molho./#/ Sirva o macarrão à carbonara com o restante do queijo parmesão ralado por cima. Decore com salsinha picada, se desejar./#/ Aproveite imediatamente!",
+      "favoritos": "91"
+    },
+    {
+      "id": "bB5rM7j",
+      "foto": "./assets/receitas-img/bruschettas-img.png",
+      "titulo": "Bruschettas de Tomate",
+      "descricao": "Deliciosas bruschettas com tomate, manjericão e queijo derretido, perfeitas como aperitivo.",
+      "categoria": "Aperitivos/#/ Italiana/#/ Entradas",
+      "tempoPreparo": "15min",
+      "pessoasServidas": "4-6 pessoas",
+      "ingredientes": "1 baguete italiana ou pão rústico cortado em fatias diagonais/#/ 4 tomates médios, picados/#/ 1 dente de alho, descascado e cortado ao meio/#/ Folhas de manjericão fresco/#/ 100g de queijo muçarela ralado/#/ Azeite de oliva extra virgem/#/ Sal e pimenta a gosto",
+      "modoPreparo": "Pré-aqueça o forno a 180°C./#/ Coloque as fatias de pão em uma assadeira e leve ao forno por cerca de 5 minutos, ou até que fiquem levemente douradas e crocantes./#/ Retire as fatias de pão do forno e esfregue o dente de alho nas superfícies de cada fatia, para dar sabor./#/ Em uma tigela, misture os tomates picados, folhas de manjericão rasgadas, azeite de oliva, sal e pimenta. Reserve por alguns minutos para que os sabores se misturem./#/ Coloque uma porção da mistura de tomate e manjericão sobre cada fatia de pão./#/ Cubra as bruschettas com queijo muçarela ralado./#/ Leve as bruschettas de volta ao forno por cerca de 5 minutos, ou até que o queijo derreta e comece a dourar./#/ Retire do forno e sirva imediatamente como aperitivo ou entrada.",
+      "favoritos": "59"
     }
+    
   ]
 }
